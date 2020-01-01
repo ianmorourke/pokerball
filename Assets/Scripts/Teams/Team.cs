@@ -6,7 +6,7 @@ using UnityEngine;
 namespace Pokerball
 {
     [CreateAssetMenu(fileName = "new Team", menuName = "Team", order = 51 )]
-    public class Team : ScriptableObject
+    public class Team
     {
         [SerializeField]
         public string school;
