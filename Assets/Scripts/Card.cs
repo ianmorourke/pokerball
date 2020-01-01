@@ -12,11 +12,11 @@ namespace Pokerball
         public Suit suit { get; set; }
 
 
-		private static int[] rankPrimes = new int[] { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41 };
-		private static int[] suitPrimes = new int[] { 43, 47, 53, 59 };
+	private static int[] rankPrimes = new int[] { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41 };
+	private static int[] suitPrimes = new int[] { 43, 47, 53, 59 };
 
-		public int PrimeRank { get { return rankPrimes[(int)rank]; } }
-		public int PrimeSuit { get { return suitPrimes[(int)suit]; } }
+	public int PrimeRank { get { return rankPrimes[(int)rank]; } }
+	public int PrimeSuit { get { return suitPrimes[(int)suit]; } }
 
         public void LogCard()
         {
